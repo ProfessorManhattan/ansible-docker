@@ -1,0 +1,5 @@
+---
+# @action Installs docker-compose
+# Both Mac OS X and Windows install Docker Desktop which includes Docker Compose as well
+# as Notary, Kubernetes, and Credential Helper.
+[]

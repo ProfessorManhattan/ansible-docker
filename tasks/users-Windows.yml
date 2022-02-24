@@ -1,0 +1,13 @@
+---
+- name: Ensure docker system group exists
+  ansible.windows.win_group:
+    name: docker-users
+    state: present
+
+- name: Ensure docker users are added to the docker group.
+  ansible.windows.win_user:
+    name: "{{ item }}"
+    groups:
+      - docker-users
+    groups_action: add
+  loop: "{{ docker_users }}"

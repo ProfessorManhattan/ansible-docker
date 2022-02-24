@@ -1,0 +1,51 @@
+---
+galaxy_info:
+  role_name: docker
+  author: ProfessorManhattan
+  description: Installs Docker on nearly any platform
+  issue_tracker_url: https://gitlab.com/megabyte-labs/ansible-roles/docker/-/issues
+  company: Megabyte Labs
+  license: license (MIT)
+  min_ansible_version: 2.1
+  platforms:
+    - name: Archlinux
+      versions:
+        - all
+    - name: Mac
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - xenial
+    - name: Windows
+      versions:
+        - all
+  galaxy_tags:
+    - ansible
+    - compose
+    - containers
+    - docker
+    - install
+    - installdoc
+    - installdoctor
+    - macos
+    - mblabs
+    - megabytelabs
+    - molecule
+    - orchestration
+    - professormanhattan
+    - role
+    - server
+    - system
+    - ubuntu
+    - washingtondc
+    - web
+    - windows
+  namespace: professormanhattan
+dependencies:
+  - role: professormanhattan.homebrew
+    when: ansible_os_family == "Darwin"
+  - role: professormanhattan.snapd
+    when: ansible_os_family == "Linux"
+  - role: professormanhattan.gvisor
+    when: ansible_os_family == "Linux"
