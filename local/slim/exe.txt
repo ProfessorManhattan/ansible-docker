@@ -6,3 +6,11 @@ commitlint
 git-cz
 jq
 yq
+yq
+jq
+git-cz
+commitlint
+husky
+jq
+yq
+jq
