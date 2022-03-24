@@ -106,7 +106,7 @@ semantic = [
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://gitlab.com/megabyte-labs/ansible-roles/docker/-/issues"
-"GitHub" = "https://github.com/ProfessorManhattan/ansible-docker"
+"GitHub" = "https://github.com/megabyte-labs/ansible-docker"
 "GitLab" = "https://gitlab.com/megabyte-labs/ansible-roles/docker"
 "Open Collective" = "https://opencollective.com/megabytelabs"
 "Patreon" = "https://www.patreon.com/ProfessorManhattan"
