@@ -64,7 +64,7 @@
   </a>
 </div>
 
-> </br><h4 align="center">**An Ansible role that installs Docker on nearly any platform**</h4></br>
+> <br/><h4 align="center">**An Ansible role that installs Docker on nearly any platform**</h4><br/>
 
 <!--TERMINALIZE![terminalizer_title](https://gitlab.com/megabyte-labs/ansible-roles/docker* **github**: /raw/master/docs/demo.gif
 * **gitlab**: /-/raw/master/docs/demo.gif)TERMINALIZE-->
